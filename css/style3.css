@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inria+Sans:wght@300;400;700&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    font-family: Bebas Neue;
+}
+
+body{
+	background-image: 
+	url(/media/eita.jpg);
+	height: 100vh;
+	background-size: cover;
+}
+
+#eitasaia{
+	float: left;
+	margin-bottom: 40%;
+}
+
+
+#eita{
+	width: 17%;
+	float: right;
+}
+
+#eita:hover{
+	filter: invert(100%);
+}
+
+#eitabe{
+	position: absolute;
+	float: left;
+	margin-left: 45%;
+	width: 15%;
+	margin-top: 12%;
+}
+
+#eitabe:hover{
+	filter: saturate(0%) drop-shadow(20px -20px 130px red);
+}
+
+ul li a:hover,
+ul li a:active{
+	/*Definindo a cor do sublinhado dos links*/
+	border-bottom: 3px solid yellow;
+}
+
+ul li a:link,
+ul li a:visited{
+	color: #FFF;
+    text-shadow: 8px 8px 8px rgba(0,0,0,2);
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 260%;
+	float: right;
+	margin-top: 550px;
+	margin-right: 3%;
+}
