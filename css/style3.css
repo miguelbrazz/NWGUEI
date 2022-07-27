@@ -10,7 +10,7 @@
 
 body{
 	background-image: 
-	url(/media/eita.jpg);
+	url(../media/eita.jpg);
 	height: 100vh;
 	background-size: cover;
 }

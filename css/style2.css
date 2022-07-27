@@ -13,7 +13,7 @@ html, body {
 }
 
 body{
-	background-image: url(/media/dededance.gif);
+	background-image: url(../media/dededance.gif);
 	background-size: cover;
 	background-position: center;
     font-family: Bebas Neue;

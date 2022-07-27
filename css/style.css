@@ -13,7 +13,7 @@ html, body {
 
 body {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-	url(/media/imagemnwguei.jpg);
+	url(../media/imagemnwguei.jpg);
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
@@ -29,7 +29,7 @@ body {
     border-radius: 10px;
     padding: 35px;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
-	url(/media/nwguei.jpg);
+	url(../media/nwguei.jpg);
     max-width: 1600px;
     min-height: 580px;
     box-shadow: 8px 8px 8px rgba(0,0,0,0.6);
